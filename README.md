@@ -1,2 +1,2 @@
 # TodoMVC
-AngularJS TODO application 
+AngularJS TODO WebApp based on MVC framework. 
