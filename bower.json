@@ -1,0 +1,10 @@
+{
+  "name": "todomvc-template",
+  "version": "0.0.0",
+  "dependencies": {
+    "todomvc-common": "~0.1.4",
+    "angular": "~1.4.7",
+    "angular-ui-router": "~0.2.15",
+    "ngstorage": "~0.3.9"
+  }
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="TodoApp" ng-controller="TodoAppCtrl">
+	<head>
+        <meta charset="UTF-8">
+        <title ng-bind="pageTitle"></title>
+		<link rel="stylesheet" href="../bower_components/todomvc-common/base.css">
+	</head>
+	<body >
+		<div class="container" ui-view="main"></div>
+		<footer id="info">
+			<p>Double-click to edit a todo</p>
+			<p>Click the checkmark to mark done</p>
+			<p>Click the X to delete</p>
+			<p>Template by <a href="http://github.com/sindresorhus">Sindre Sorhus</a></p>
+			<p>Code Sample, <a href="http://www.blah.de">blah</a></p>
+		</footer>
+		<!-- Scripts here. Don't remove this ↓ -->
+		<script type="text/javascript" src="../bower_components/angular/angular.min.js"></script>
+		<script type="text/javascript" src="../bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+		<script type="text/javascript" src="../bower_components/ngstorage/ngStorage.min.js"></script>
+
+		<script type="text/javascript" src="common/common.directives.js"></script>
+		<script type="text/javascript" src="app/todo/todo.config.js"></script>
+		<script type="text/javascript" src="app/todo/todo.factory.js"></script>
+		<script type="text/javascript" src="app/todo/todo.services.js"></script>
+		<script type="text/javascript" src="app/todo/todo.controllers.js"></script>
+		<script type="text/javascript" src="app/todo/todo.module.js"></script>
+		<script type="text/javascript" src="app/app.js"></script>
+
+
+
+	</body>
+</html>
